@@ -53,7 +53,7 @@ const Overall = () => {
                         </Grid>
                         <Grid item lg={6} md={6} xs={6} >
                             <Paper className={classes.paper}>
-                                <Typography variant="h6" gutterBottom>Today Recovered</Typography>
+                                <Typography variant="h6" gutterBottom>Recent Recovered</Typography>
                                 {loading?<CircularProgress size={20}/>:<Typography>+{data.todayRecovered}</Typography>}
                             </Paper>
                         </Grid>
@@ -65,7 +65,7 @@ const Overall = () => {
                         </Grid>
                         <Grid item lg={6} md={6} xs={6} >
                             <Paper className={classes.paper}>
-                                <Typography variant="h6" gutterBottom>Todays Deaths</Typography>
+                                <Typography variant="h6" gutterBottom>Recent Deaths</Typography>
                                 {loading?<CircularProgress size={20}/>:<Typography>+{data.todayDeaths}</Typography>}
                             </Paper>
                         </Grid>
