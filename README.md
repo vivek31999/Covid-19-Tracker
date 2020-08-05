@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Covid19 Tracker in React and Redux
+
+![Main-Page](https://github.com/vivek31999/Covid-19-Tracker/blob/master/src/SS/overall.png)
+
+![Country-Page](https://github.com/vivek31999/Covid-19-Tracker/blob/master/src/SS/country.png)
 
 ## Available Scripts
 
