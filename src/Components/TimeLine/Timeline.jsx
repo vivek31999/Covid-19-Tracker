@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
 
     grid : {
     	order : 3,
+    	width : '100%',
     	[theme.breakpoints.up("sm")]: {
         order : 3,
         width : '100%'
