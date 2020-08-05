@@ -1,6 +1,6 @@
 Covid19 Tracker in React and Redux
 
-![Main-Page](https://github.com/vivek31999/Covid-19-Tracker/blob/master/src/SS/overall.png)
+![Main-Page](https://github.com/vivek31999/Covid-19-Tracker/blob/master/src/SS/main.png)
 
 ![Country-Page](https://github.com/vivek31999/Covid-19-Tracker/blob/master/src/SS/country.png)
 
