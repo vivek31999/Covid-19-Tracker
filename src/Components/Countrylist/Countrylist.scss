@@ -1,0 +1,15 @@
+.Countrylist_paper {
+  margin: 10px;
+  padding: 20px;
+}
+.Countrylist_container {
+  padding: 5px;
+  height: 320px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.Countrylist_container::-webkit-scrollbar {
+  display: none;
+}

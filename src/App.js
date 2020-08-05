@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React ,{useEffect} from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {useDispatch } from 'react-redux';
+import Main from './Pages/Main';
+import {getOverall} from './Redux/Actions/FetchData';
+import CountryMain from './Pages/CountryPage/CountryMain';
 
-function App() {
+const App = () =>{
+  const dispatch = useDispatch();
+
+useEffect(()=>{
+    dispatch(getOverall());
+},[]);
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Router>
+            <Switch>
+                <Route exact path="/" component={Main } />
+                <Route path="/country" component={CountryMain}/>
+            </Switch>
+        </Router>
   );
 }
 
